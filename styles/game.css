@@ -130,7 +130,7 @@ main {
     font-size: 0.5rem;
     font-weight: 600;
     text-transform: uppercase;
-    margin-left: 40px ;
+    margin-left: 40px;
     margin-right: 15px;
     padding: 10px 20px;
     cursor: pointer;
@@ -150,6 +150,65 @@ main {
 }
 
 .banner-img {
+
+    width: 100%;
+    margin-left: 400px;
+}
+
+.video-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.fun-video {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.video-des {
+    color: #534C64;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
     
-    
+
+}
+
+.video-list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.img {
+    width: 300px;
+    height: 370px;
+    margin-top: 40px;
+   
+
+}
+
+
+
+
+
+
+
+/* mobile responsive */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
 }
