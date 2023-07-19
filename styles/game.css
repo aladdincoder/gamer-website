@@ -22,6 +22,10 @@
     color: #ff42a5;
 }
 
+.white {
+    color: #FFF;
+}
+
 /* header style */
 header {
     background: #FFF;
@@ -57,6 +61,7 @@ nav li {
 
 .logo {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -176,14 +181,14 @@ main {
     text-align: center;
     font-size: 1rem;
     font-weight: 400;
-    
+
 
 }
 
-.video-list{
+.video-list {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
     align-items: center;
 }
 
@@ -191,13 +196,135 @@ main {
     width: 300px;
     height: 370px;
     margin-top: 40px;
-   
+}
 
+.play-btn {
+    position: relative;
+    bottom: 195px;
+    right: 180px;
+}
+
+.watch {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #F948B2;
+    position: relative;
+    bottom: 180px;
+    right: 20px;
+    padding-bottom: 0;
+}
+
+
+/* features style */
+.features {
+    display: flex;
+    margin-top: 100px;
+    gap: 220px;
+}
+
+.feature-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 230px;
+    margin-bottom: 20px;
+}
+
+.feature-des {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.hero-img {
+    width: 570px;
+    height: 520px;
+
+}
+
+.cat-and-girl {
+    width: 260px;
+    height: 300px;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    position: relative;
+    bottom: 200px;
+    left: 450px;
+
+}
+
+.sponsor div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.icon-img {}
+
+.icon-title {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 50px 25px 15px;
 }
 
 
 
 
+
+/* footer style */
+footer {
+    background: #0B0223;
+}
+
+footer li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500px;
+    color: #FFF;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.social img {
+    margin-right: 40px;
+}
+
+.policy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 100px;
+}
+
+/* footer end */
 
 
 
